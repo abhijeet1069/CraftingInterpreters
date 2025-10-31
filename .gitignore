@@ -1,0 +1,112 @@
+# -----------------------------
+# General
+# -----------------------------
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.sonarlint
+*.metadata
+
+# IDE directories
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Build directories
+bin/
+build/
+out/
+target/
+dist/
+debug/
+release/
+
+# Temporary files from compilers
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# -----------------------------
+# C / C++ specific
+# -----------------------------
+# Object files
+*.ko
+*.mod
+*.mod.c
+*.symvers
+*.order
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.gcda
+*.gcno
+*.gcov
+
+# Makefile intermediate files
+*.d
+*.dep
+
+# CCache
+.ccache/
+
+# -----------------------------
+# Java specific
+# -----------------------------
+# Compiled class files
+*.class
+
+# Java archives
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+
+# -----------------------------
+# Package Managers / Build Tools
+# -----------------------------
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+**/build/
+
+# Maven
+.mvn/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# -----------------------------
+# OS-specific junk
+# -----------------------------
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
