@@ -2,7 +2,7 @@ package calculator.parser;
 
 public class Grouping implements Expr{
 
-    final Expr expression;
+    public final Expr expression;
 
     Grouping(Expr expression){
         this.expression = expression;

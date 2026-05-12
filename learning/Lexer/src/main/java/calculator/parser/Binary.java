@@ -4,9 +4,9 @@ import calculator.lexer.Token;
 
 public class Binary implements Expr{
 
-    final Expr left;
-    final Token operator;
-    final Expr right;
+    public final Expr left;
+    public final Token operator;
+    public final Expr right;
 
     public Binary(Expr left, Token operator, Expr right) {
         this.left = left;

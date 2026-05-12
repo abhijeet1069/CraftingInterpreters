@@ -2,7 +2,7 @@ package calculator.parser;
 
 public class Literal implements Expr{
 
-    final int value;
+    public final int value;
 
     public Literal(int value) {
         this.value = value;
